@@ -1,0 +1,7 @@
+Options -Indexes
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    
+    RewriteRule ^locations(/.*)?$ index.php [L,NC]
+    </IfModule>
